@@ -278,7 +278,6 @@
 
     <!-- JAVASCRIPT ENGINE & FIREBASE -->
     <script>
-        // Updated to your confirmed kumbhathon-68ebf Firebase credentials
         const firebaseConfig = {
             apiKey: "AIzaSyDmm0D5e4jtjMb470bjb6_pqe__uGt6Xkc",
             authDomain: "kumbhathon-68ebf.firebaseapp.com",
@@ -292,7 +291,7 @@
         if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
         const db = firebase.database();
 
-        // Nashik Coordinates
+        // Nashik City Coordinates
         const CITY_COORDS = [19.9975, 73.7898];
         let currentWorker = { name: "Raju Shinde", vehicle: "MH-17-AG-4421" };
         let mapInstance = null;
